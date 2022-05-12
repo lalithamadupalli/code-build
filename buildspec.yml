@@ -21,4 +21,4 @@ phases:
    post_build:
      commands:
         - echo Build completed on 'date'
-        - aws s3 sync build/ s3://sandip --acl public-read
+        - aws s3 sync build/ s3://s3buct --acl public-read
